@@ -1,7 +1,6 @@
-
 #view all created notes
 get '/' do
-  @notes = Note.all
+  @notes = Note.all :order => "id DESC" 
   erb :index
 end
 

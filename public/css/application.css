@@ -3,6 +3,7 @@
   width: 600px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
+  text-align: center;
 }
 
 .note{
@@ -36,7 +37,7 @@
 }
 
 .add {
-  margin-left: 250px;
+  margin-left: 250<a class = "add" href ="/notes/add"> Add a Note!</a>px;
   text-decoration: none;
   color: black ;
   border: solid 2px black;

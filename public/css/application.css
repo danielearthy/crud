@@ -1,0 +1,50 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+.note{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.note a{
+  color: rgb(104, 93, 93);
+  text-decoration: none;
+  background-color: black;
+  margin: 4px;
+  padding: 3px;
+  border: 3px solid rgb(104, 93, 93); 
+}
+
+.delete {
+  text-decoration: none;
+  color: black ;
+  border: solid red;  
+  background-color: red;
+  margin-left: 5px;
+}
+
+.return { 
+  text-decoration: none;
+  color: black ;
+  border: solid 2px black;  
+  background-color: green;
+  margin-left: 5px;
+}
+
+.add {
+  margin-left: 250px;
+  text-decoration: none;
+  color: black ;
+  border: solid 2px black;
+  padding: 2px;  
+  background-color: rgb(164, 185, 184);
+}
+
+
+th {
+  text-align: left;
+}

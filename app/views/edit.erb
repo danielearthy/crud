@@ -1,0 +1,9 @@
+<div class ="container">
+  <h3>To edit this note replace the text and click edit</h3> 
+  <form name="input" action="/notes/<%=@note.id%>" method="post">
+    <input type="hidden" name="_method" value="put">
+    <textarea type="text" name="text" cols = "40"><%=@note.text%></textarea>
+    <input type="submit" value="Edit">
+    <a class = "delete" href ="/notes/<%=@note.id%>/confirm">Delete</a>
+  </form>
+</div>

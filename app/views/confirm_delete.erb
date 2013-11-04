@@ -1,0 +1,8 @@
+<div class ="container">
+  <h3>Are you sure you want to delete this note? :: " <%=@note.text%>"</h3> 
+  <form name="input" action="/notes/<%=@note.id%>" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <a class = "return" href ="/notes/<%=@note.id%>">No! Go Home</a>
+    <input type="submit" value="Delete">
+  </form>
+</div>
